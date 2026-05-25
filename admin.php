@@ -4,11 +4,9 @@ $textadmin = ["panel", "/panel", $textbotlang['Admin']['textpaneladmin']];
 $text_panel_admin_login_template = "💎 | Version Bot: $version
 📌 | Version Mini App: 0.1.1
 
-<blockquote>🔹 | این ربات کاملاً رایگان است و توسط تیم میرزا توسعه داده شده است</blockquote>
+<blockquote>🔹 | این ربات توسعه یافته و ارتقا توسط @sdr6tn </blockquote>
 
-<blockquote>🔹 | هرگونه فروش یا دریافت وجه بابت این ربات تخلف محسوب می‌شود.</blockquote>
-
-<blockquote>🔹 | در صورت مشاهدهٔ فروش یا دریافت وجه، لطفاً وجه خود را پیگیری کرده و بازپس‌گیری نمایید.</blockquote>
+<blockquote>🔹 | mango free by sadra edition.</blockquote>
 
 <blockquote>🐞 | اگر در عملکرد ربات با باگ یا مشکلی مواجه شدید، از طریق دکمهٔ **📬 گزارش ربات** در پنل ادمین با ما در ارتباط باشید.</blockquote>";
 
@@ -7610,7 +7608,7 @@ if ($datain == "settimecornremove" && $adminrulecheck['rule'] == "administrator"
     update("user", "Processing_value", $userdata['idpanel'], "id", $from_id);
     step("home", $from_id);
 } elseif ($text == "📬 گزارش ربات" && $adminrulecheck['rule'] == "administrator") {
-    $textupdate = "💬 | گزارش ربات\n\n🔹 | اگر در عملکرد ربات با <b>باگ یا مشکلی</b> روبه‌رو شدید، لطفاً مورد را برای بررسی به ما اطلاع دهید.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | در صورتی که با <b>باگ جدی</b> یا رفتار غیرعادی مواجه شدید، سریع‌تر گزارش دهید تا رفع شود.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | اگر پیشنهادی برای <b>افزودن قابلیت جدید</b> دارید یا ایده‌ای برای بهبود عملکرد ربات در نظر دارید، خوشحال می‌شویم بشنویم.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | همچنین اگر نیاز به <b>راهنمایی</b> یا کمک دارید، می‌توانید از طریق دایرکت با تیم پشتیبانی در ارتباط باشید.\n\n📩 | برای ارسال گزارش، پیشنهاد یا درخواست راهنمایی، در <b>گروه میرزا</b> پیام بگذارید:\n<a href=\"https://t.me/mirzapanelgroup\" rel=\"nofollow\" target=\"_blank\">Mirza Group</a>";
+    $textupdate = "💬 | گزارش ربات\n\n🔹 | اگر در عملکرد ربات با <b>باگ یا مشکلی</b> روبه‌رو شدید، لطفاً مورد را برای بررسی به ما اطلاع دهید.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | در صورتی که با <b>باگ جدی</b> یا رفتار غیرعادی مواجه شدید، سریع‌تر گزارش دهید تا رفع شود.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | اگر پیشنهادی برای <b>افزودن قابلیت جدید</b> دارید یا ایده‌ای برای بهبود عملکرد ربات در نظر دارید، خوشحال می‌شویم بشنویم.\n➖➖➖➖➖➖➖➖➖➖➖\n🔹 | همچنین اگر نیاز به <b>راهنمایی</b> یا کمک دارید، می‌توانید از طریق دایرکت با تیم پشتیبانی در ارتباط باشید.\n\n📩 | برای ارسال گزارش، پیشنهاد یا درخواست راهنمایی، در <b>گروه exploit</b> پیام بگذارید:\n<a href=\"https://t.me/exploitcvv\" rel=\"nofollow\" target=\"_blank\">Mirza Group</a>";
     sendmessage($from_id, $textupdate, null, 'HTML');
     step('home', $from_id);
 } elseif ($text == "🛠 قابلیت های پنل") {
