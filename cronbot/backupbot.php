@@ -40,7 +40,7 @@ if ($return_var !== 0) {
     $zip = new ZipArchive();
     if ($zip->open($zip_file_name, ZipArchive::CREATE) === TRUE) {
         $zip->addFile($backup_file_name, basename($backup_file_name));
-        $zip->setEncryptionName(basename($backup_file_name), ZipArchive::EM_AES_256, "mirzapro2026#$");
+        $zip->setEncryptionName(basename($backup_file_name), ZipArchive::EM_AES_256, "sadra#@1234");
         $zip->close();
 
         telegram('sendDocument', [
