@@ -8,7 +8,7 @@ fi
 function self_update_script() {
     local MASTER_PATH="/root/install.sh"
     local BIN_LINK="/usr/local/bin/mirza"
-    local URL="https://raw.githubusercontent.com/mahdiMGF2/mirza_pro/main/install.sh"
+    local URL="https://raw.githubusercontent.com/amirsadra0098/mirza_pro/main/install.sh"
     local TEMP_FILE="/tmp/mirza_pro_update.sh"
     echo -e "\e[33mChecking for updates...\033[0m"
     wget -q -O "$TEMP_FILE" "$URL"
@@ -418,7 +418,7 @@ function install_bot() {
         exit 1
     fi
     # CHANGED: Always download from main branch (No releases for Pro)
-    ZIP_URL="https://github.com/mahdiMGF2/mirza_pro/archive/refs/heads/main.zip"
+    ZIP_URL="https://github.com/amirsadra0098/mirza_pro/archive/refs/heads/main.zip"
     echo -e "\033[33mDownloading Mirza Pro from Main Branch...\033[0m"
     # Download and extract the repository
     TEMP_DIR="/tmp/mirzaprobot"
@@ -997,11 +997,11 @@ EOF
 #         exit 1
 #     }
 #     # Download bot files
-#     ZIP_URL=$(curl -s https://api.github.com/repos/mahdiMGF2/botmirzapanel/releases/latest | grep "zipball_url" | cut -d '"' -f 4)
+#     ZIP_URL=$(curl -s https://api.github.com/repos/amirsadra0098/botmirzapanel/releases/latest | grep "zipball_url" | cut -d '"' -f 4)
 #     if [[ "$1" == "-v" && "$2" == "beta" ]] || [[ "$1" == "-beta" ]] || [[ "$1" == "-" && "$2" == "beta" ]]; then
-#         ZIP_URL="https://github.com/mahdiMGF2/botmirzapanel/archive/refs/heads/main.zip"
+#         ZIP_URL="https://github.com/amirsadra0098/botmirzapanel/archive/refs/heads/main.zip"
 #     elif [[ "$1" == "-v" && -n "$2" ]]; then
-#         ZIP_URL="https://github.com/mahdiMGF2/botmirzapanel/archive/refs/tags/$2.zip"
+#         ZIP_URL="https://github.com/amirsadra0098/botmirzapanel/archive/refs/tags/$2.zip"
 #     fi
 #     TEMP_DIR="/tmp/mirzabot"
 #     mkdir -p "$TEMP_DIR"
@@ -1259,7 +1259,7 @@ function update_bot() {
         exit 1
     fi
     # Fetch latest version from GitHub (Always Main Branch for Pro)
-    ZIP_URL="https://github.com/mahdiMGF2/mirza_pro/archive/refs/heads/main.zip"
+    ZIP_URL="https://github.com/amirsadra0098/mirza_pro/archive/refs/heads/main.zip"
     # Create temporary directory
     TEMP_DIR="/tmp/mirzaprobot_update"
     mkdir -p "$TEMP_DIR"
