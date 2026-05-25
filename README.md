@@ -4,7 +4,7 @@
 A Powerful Bot for Selling VPN Services with Auto Configuration Build.
 
 <p align="center">
-    <a href="https://t.me/mirzapanel" target="_blank">
+    <a href="https://t.me/vpnplusgow" target="_blank">
         <img src="https://img.shields.io/badge/Telegram-Group-blue?style=flat-square&logo=telegram" alt="Telegram Group"/>
     </a>
     <a href="https://github.com/mahdiMGF2/mirzabot" target="_blank">
@@ -101,7 +101,7 @@ Ensure you have the following before installation:
 Run the following command in your server terminal:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/mirzabot/main/install.sh && bash install.sh
+curl -o install.sh -L https://raw.githubusercontent.com/amirsadra0098/mirzabot/main/install.sh && bash install.sh
 ```
 
 When prompted, **select option 1** to complete the installation.
@@ -114,7 +114,7 @@ When prompted, **select option 1** to complete the installation.
 To update your bot to the latest version, use the following command:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh
+curl -o install.sh -L https://raw.githubusercontent.com/amirsadra0098/botmirzapanel/main/install.sh && bash install.sh
 ```
 When prompted, **select option update** to remove the bot.
 ---
@@ -124,7 +124,7 @@ When prompted, **select option update** to remove the bot.
 If you want to completely remove the bot from your server, run the following command:
 
 ```bash
-curl -o install.sh -L https://raw.githubusercontent.com/mahdiMGF2/botmirzapanel/main/install.sh && bash install.sh
+curl -o install.sh -L https://raw.githubusercontent.com/amirsadra0098/botmirzapanel/main/install.sh && bash install.sh
 ```
 
 When prompted, **select option 3** to remove the bot.
